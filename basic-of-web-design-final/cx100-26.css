@@ -9,10 +9,10 @@ body{
 }
 .container{
     width: 100%;
-    min-height: 1300px;
+    min-height: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background: #303841;
+    background:white;
 }
 .header{
     width: 100%;
@@ -65,46 +65,76 @@ ul#main li ul{
 ul#main li:hover ul{
     display: block;
 }
-.card{
-    margin: 50px 20px;
-    width: 20%;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.75);
-    float: left;
-    transition: box-shadow 0.2s;
-    background-color: aliceblue;
-    margin-left: 50px;
-    margin-top: 150px;
+.container .tbis img{
+    width: 580px;
+    margin-left: 230px;
+    margin-top: 180px;
 }
-.card:hover{
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.75);
+.ticerik h2{
+    margin-left: 1000px;
+    margin-top: -400px;
+    font-family: 'Poppins', sans-serif;
 }
-.card-body{
-    padding: 30px 15px;
+.ticerik p {
+    color: #E43A19;
+    font-family: 'Poppins', sans-serif;
+   margin-left: 1130px;
+   font-weight: bold;
+   font-size: 20px;
 }
-.card .card-body a{
-    text-decoration: none;
-}
-.card-title{
-    margin-top: -20px;
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
+.ttablo{
+    margin-left: 1000px;
+    margin-top: 200px;
     
 }
-.card a .card-img{
-    height: 200px;
-    width: 296px;
+.ttablo .ttt{
+    font-family: 'Poppins', sans-serif;
 }
-.card:hover{
-    opacity: 0.8;
+.ticerik .ttablo .ttt tr .bas{
+   font-weight: bold;
+   
 }
-.card .card-body .card-text{
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: -10px;
-    color: #E43A19;
+.ticerik .ttablo .ttt tr td{
+    padding: 5px 40px 5px;
+}
+.ticerik .ttablo .ttt .a{
+    background-color: rgba(0,0 ,0 , 0.4);
+}
+.ticerik .ttablo .ttt .b{
+    background-color: rgba(0,0 ,0 , 0.1);
+}
+.ticerik .ttablo .ttt .c{
+    background-color: rgba(0,0 ,0 , 0.4);
+}
+.content{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 950px;
+}
+.content h1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 200px;
+}
+.content .tabloo{
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-top: -20px;
+    text-align: left;
+}
+.content .tabloo table tr th{
+    padding: 5px 70px 15px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.content .tabloo table tr td{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 5px 70px 15px 10px;
 }
 .footer{
     width: 100%;
@@ -112,7 +142,7 @@ ul#main li:hover ul{
     background-color: #EEEEEE;
     position: absolute;
     bottom: 0;
-    top: 1500px;
+    top: 1700px;
 }
 .footer .copy{
     font-family: 'Poppins', sans-serif;
