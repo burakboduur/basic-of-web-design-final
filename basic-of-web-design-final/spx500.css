@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.container{
+    width: 100%;
+    min-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background:white;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #EEEEEE;
+    position: absolute;
+    top: 45px;
+}
+.header .logo img{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 180px;
+    top: 4px;
+}
+.header ul{
+    float: right;
+    margin-right: 10px;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 30px;
+    position: relative;
+}
+.header ul li a{
+    color: #3A4750;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 6px 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.header ul li a.active{
+    color: #FF4C29;
+}
+.header ul li a:hover{
+    color: #FF4C29;
+}
+ul#main li ul{
+        display: none;
+        position: absolute;
+        left: -30px;
+        top: 30px;
+        margin: 0;
+        padding: 0;
+        background-color: #EEEEEE;
+}
+ul#main li:hover ul{
+    display: block;
+}
+.container .tbis img{
+    width: 580px;
+    margin-left: 230px;
+    margin-top: 180px;
+}
+.ticerik h2{
+    margin-left: 1000px;
+    margin-top: -550px;
+    font-family: 'Poppins', sans-serif;
+}
+.ticerik p {
+    color: #E43A19;
+    font-family: 'Poppins', sans-serif;
+   margin-left: 1130px;
+   font-weight: bold;
+   font-size: 20px;
+}
+.ttablo{
+    margin-left: 1000px;
+    margin-top: 200px;
+    
+}
+.ttablo .ttt{
+    font-family: 'Poppins', sans-serif;
+}
+.ticerik .ttablo .ttt tr .bas{
+   font-weight: bold;
+   
+}
+.ticerik .ttablo .ttt tr td{
+    padding: 5px 40px 5px;
+}
+.ticerik .ttablo .ttt .a{
+    background-color: rgba(0,0 ,0 , 0.4);
+}
+.ticerik .ttablo .ttt .b{
+    background-color: rgba(0,0 ,0 , 0.1);
+}
+.ticerik .ttablo .ttt .c{
+    background-color: rgba(0,0 ,0 , 0.4);
+}
+.content{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 950px;
+}
+.content h1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 200px;
+}
+.content .tabloo{
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-top: -20px;
+    text-align: left;
+}
+.content .tabloo table tr th{
+    padding: 5px 70px 15px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.content .tabloo table tr td{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 5px 70px 15px 10px;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #EEEEEE;
+    position: absolute;
+    bottom: 0;
+    top: 1700px;
+}
+.footer .copy{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 5px;
+}
+.footer .bb{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    left: 1140px;
+    top: 20px;
+}
+.footer p a:hover{
+    color: #E43A19;
+}
